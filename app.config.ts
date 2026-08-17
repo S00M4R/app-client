@@ -7,11 +7,11 @@ export default {
     scheme: 'nearby',
     version: '1.0.0',
     orientation: 'portrait',
-    icon: './assets/icon.png',
+    icon: './assets/images/icon.png',
     userInterfaceStyle: 'automatic',
     newArchEnabled: true,
     splash: {
-      image: './assets/splash.png',
+      image: './assets/images/splash.png',
       resizeMode: 'contain',
       backgroundColor: '#121D2E'
     },
@@ -33,7 +33,7 @@ export default {
     android: {
       package: 'com.yourorg.nearby',
       adaptiveIcon: {
-        foregroundImage: './assets/adaptive-icon.png',
+        foregroundImage: './assets/images/adaptive-icon.png',
         backgroundColor: '#121D2E'
       },
       permissions: [
